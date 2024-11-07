@@ -1,0 +1,33 @@
+#box1 {
+  background: linear-gradient(to bottom, #b7ad70 34%,#b7ad70 34%,#c9c190 37%,#c9c190 37%,#c9c190 42%,#d5cea6 50%,#b7ad70 52%);
+  padding: 30px;
+  margin: 1px;
+  border: 60px;
+  width: 100%;
+}
+h1 {
+  font-family: "Depot New", Lora, sans-serif;
+  font-weight: 900;
+  text-align: center;
+}  
+p#border {
+  border: 3px solid brown;
+  margin: 0;
+}
+div#border {
+  border: 5px solid brown;
+  margin: 0;
+}
+.container{
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+
+.item{
+    background-color: blueviolet;
+    color:black;
+    text-align: center;
+}
