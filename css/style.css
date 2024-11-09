@@ -3,31 +3,61 @@
   padding: 30px;
   margin: 1px;
   border: 60px;
-  width: 100%;
+  
 }
+#box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+  background-color: #d5cea6;
+  padding: 30px;
+} 
 h1 {
   font-family: "Depot New", Lora, sans-serif;
   font-weight: 900;
   text-align: center;
 }  
 p#border {
-  border: 3px solid brown;
+  border: 3px;
   margin: 0;
+  background: linear-gradient(to bottom, #fffdc6 0%,#fffdc6 100%);
 }
 div#border {
-  border: 5px solid brown;
+  border: 5px;
   margin: 0;
+   background: linear-gradient(to bottom, #fffdc6 0%,#b7ad70 4%,#b7ad70 4%,#b7ad70 7%,#b7ad70 12%,#b7ad70 96%,#fffdc6 100%);
 }
 .container{
     display:flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: brown;
+    background: linear-gradient(to bottom, #fffdc6 0%,#b7ad70 4%,#b7ad70 4%,#b7ad70 7%,#b7ad70 12%,#b7ad70 96%,#fffdc6 100%);
 }
 
 .item{
-    background-color: blueviolet;
+    background-color: none;
     color:black;
     text-align: center;
 }
+.floatleft {
+        float: left;
+}
+ .floatright {
+        float:right;
+ }
+ .clearme {
+        clear: both;
+}
+ ul#center {
+       background: linear-gradient(to bottom, #b7ad70 34%,#b7ad70 34%,#c9c190 37%,#c9c190 37%,#c9c190 42%,#d5cea6 50%,#b7ad70 52%);
+       width: 400px;
+       height: 200px;
+       float: left;
+       margin: 20px 10px;
+}
+.sidenave {
+         height: 500px;
+         width: 10%;
+ }
