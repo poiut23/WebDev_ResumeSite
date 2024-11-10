@@ -55,7 +55,6 @@ div#box3 {
 }
 
 .item{
-    background-color: none;
     color:black;
     text-align: center;  
 }
@@ -64,12 +63,6 @@ h1{
   font-weight: 900;
   text-align: center;
 }    
-#fontp1{
-  font: Edu Australia VIC WA NT Hand Precursive
-}
-
-  
-
 
 
 
@@ -119,9 +112,6 @@ p#border {
   font-family: "Depot New", Lora, sans-serif;
 }
 
-#fontp2{
-  font: Edu Australia VIC WA NT Hand Precursive
-}
 
 
 
@@ -160,7 +150,6 @@ p#border {
 #p3img3{
   height: 350px;
   width: 240px;
-  float: center;
   margin: 10px;
   border: none;
   border-radius: 5px;
@@ -233,12 +222,10 @@ p#border {
   margin: 100px;
 }
 #imgdiv3{
-  font: Akaya Telivigala;
   font-size: 15px;
   color: black;
 }
 #font0p3{
-  font: Lobster;
   font-size: 25px;
   color: black;
 }
