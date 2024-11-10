@@ -1,12 +1,12 @@
 #BG1{
  background: linear-gradient(to bottom, #b7ad70 34%,#b7ad70 34%,#c9c190 37%,#c9c190 37%,#c9c190 42%,#d5cea6 50%,#b7ad70 52%);
-}  
-#BG2{
- background: linear-gradient(to bottom, #d5cea6 0%,#b7ad70 0%);
-}  
-#BG3{
- background: linear-gradient(to bottom, #d5cea6 0%,#b7ad70 0%);
-}  
+}
+
+a{
+  color: black;
+  text-decoration:none;
+}
+
 #box1 {
   background: linear-gradient(to bottom, #b7ad70 34%,#b7ad70 34%,#c9c190 37%,#c9c190 37%,#c9c190 42%,#d5cea6 50%,#b7ad70 52%);
   padding: 30px;
@@ -22,9 +22,7 @@
   background-color: #d5cea6;
   padding: 30px;
 } 
-#box3{
-  display: flex;
-}
+
 div#box3 {
   padding: 10px;
   display:flex;
@@ -33,13 +31,8 @@ div#box3 {
   margin: 0;
   background: linear-gradient(to bottom, #fffdc6 0%,#b7ad70 4%,#b7ad70 4%,#b7ad70 7%,#b7ad70 12%,#b7ad70 96%,#fffdc6 100%);
   text-align: center;
-}
-h1 {
-  font-family: "Depot New", Lora, sans-serif;
-  font-weight: 900;
-  text-align: center;
 }  
-p#border {
+  p#border {
   border: 3px;
   margin: 0;
   background: linear-gradient(to bottom, #fffdc6 0%,#fffdc6 100%);
@@ -55,8 +48,34 @@ p#border {
 .item{
     background-color: none;
     color:black;
-    text-align: center;
+    text-align: center;  
 }
+
+h1{
+  font-family: "Depot New", Lora, sans-serif;
+  font-weight: 900;
+  text-align: center;
+}    
+  
+  
+
+
+
+
+  
+  
+  
+#BG2{
+ background: linear-gradient(to bottom, #d5cea6 0%,#b7ad70 0%);
+} 
+ 
+ 
+p#border {
+  border: 3px;
+  margin: 0;
+  background: linear-gradient(to bottom, #fffdc6 0%,#fffdc6 100%);
+}
+
 #img1{
   height: 350px;
   width: 240px;
@@ -89,20 +108,98 @@ p#border {
 }
 
 
- ul#center {
-       background: linear-gradient(to bottom, #b7ad70 34%,#b7ad70 34%,#c9c190 37%,#c9c190 37%,#c9c190 42%,#d5cea6 50%,#b7ad70 52%);
-       width: 400px;
-       height: 200px;
-       float: left;
-       margin: 20px 10px;
-}
 
-a{
-  color: black;
-  text-decoration:none;
+
+
+
+
+
+#BG3{
+ background: linear-gradient(to bottom, #d5cea6 0%,#b7ad70 0%);
+} 
+
+.clear{
+  clear: both;
 }
+  
 .audio-container{
    padding: 2px;
    border-radius: 2px;
    margin: 5px;
 }
+
+#p3img1{
+  height: 350px;
+  width: 240px;
+  float: left;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+#p3img2{
+  height: 350px;
+  width: 240px;
+  float: right;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+#p3img3{
+  height: 350px;
+  width: 240px;
+  float: left;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+#p3img4{
+  height: 350px;
+  width: 240px;
+  float: left;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+#p3img5{
+  height: 350px;
+  width: 240px;
+  float: left;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#p3t1{
+  background: linear-gradient(to bottom, #b7ad70 34%,#b7ad70 34%,#c9c190 37%,#c9c190 37%,#c9c190 42%,#d5cea6 50%,#b7ad70 52%);
+  padding: 30px;
+  margin: 1px;
+  border: 60px;
+  font-family: "Depot New", Lora, sans-serif;
+}
+#p3t2{
+  background: linear-gradient(to bottom, #b7ad70 34%,#b7ad70 34%,#c9c190 37%,#c9c190 37%,#c9c190 42%,#d5cea6 50%,#b7ad70 52%);
+  padding: 30px;
+  margin: 1px;
+  border: 60px;
+  font-family: "Depot New", Lora, sans-serif;
+}
+#p3t3{
+  background: linear-gradient(to bottom, #b7ad70 34%,#b7ad70 34%,#c9c190 37%,#c9c190 37%,#c9c190 42%,#d5cea6 50%,#b7ad70 52%);
+  padding: 30px;
+  margin: 30px;
+  border: 60px;
+  font-family: "Depot New", Lora, sans-serif;
+}
+#imgdiv1{
+  font-size: 15px;
+  color: black;
+}
+#imgdiv2{
+  font-size: 15px;
+  color: black;
+}
+#imgdiv3{
+  font-size: 15px;
+  color: black;
+}
+
