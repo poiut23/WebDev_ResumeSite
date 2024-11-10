@@ -1,10 +1,18 @@
 #BG1{
- background: linear-gradient(to bottom, #b7ad70 34%,#b7ad70 34%,#c9c190 37%,#c9c190 37%,#c9c190 42%,#d5cea6 50%,#b7ad70 52%);
+ background: linear-gradient(to bottom, rgb(213,206,166) 0%,rgb(183,173,112) 12%,rgb(183,173,112) 85%,rgb(201,193,144) 86%,rgb(201,193,144) 86%,rgb(201,193,144) 91%,rgb(201,193,144) 91%);
 }
 
 a{
   color: black;
   text-decoration:none;
+  background-color: #deaa88;
+  font-weight: bold;
+}
+
+nav#box2 a:hover{
+  background-color: #936E55;
+  color: #F7E9E0;
+  border-radius: 20px;
 }
 
 #box1 {
@@ -43,6 +51,7 @@ div#box3 {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, #fffdc6 0%,#b7ad70 4%,#b7ad70 4%,#b7ad70 7%,#b7ad70 12%,#b7ad70 96%,#fffdc6 100%);
+    z-index: 2;
 }
 
 .item{
@@ -52,11 +61,13 @@ div#box3 {
 }
 
 h1{
-  font-family: "Depot New", Lora, sans-serif;
   font-weight: 900;
   text-align: center;
 }    
-  
+#fontp1{
+  font: Edu Australia VIC WA NT Hand Precursive
+}
+
   
 
 
@@ -66,7 +77,7 @@ h1{
   
   
 #BG2{
- background: linear-gradient(to bottom, #d5cea6 0%,#b7ad70 0%);
+  background: linear-gradient(to bottom, rgb(213,206,166) 5%,rgb(183,173,112) 11%,rgb(183,173,112) 97%,rgb(201,193,144) 99%); 
 } 
  
  
@@ -105,17 +116,19 @@ p#border {
 #imgdiv{
   font-size: 30px;
   color: black;
+  font-family: "Depot New", Lora, sans-serif;
+}
+
+#fontp2{
+  font: Edu Australia VIC WA NT Hand Precursive
 }
 
 
 
 
 
-
-
-
 #BG3{
- background: linear-gradient(to bottom, #d5cea6 0%,#b7ad70 0%);
+ background: linear-gradient(to bottom, rgb(213,206,166) 5%,rgb(183,173,112) 11%,rgb(183,173,112) 97%,rgb(201,193,144) 99%);
 } 
 
 .clear{
@@ -147,11 +160,22 @@ p#border {
 #p3img3{
   height: 350px;
   width: 240px;
-  float: left;
+  float: center;
   margin: 10px;
   border: none;
   border-radius: 5px;
+ z-index: 12;
 }
+.parent{
+  position: relative;
+  width: 100%;
+}
+.abs{
+  position: absolute;
+  bottom: -350px;
+  left: -50px
+}
+
 #p3img4{
   height: 350px;
   width: 240px;
@@ -171,25 +195,32 @@ p#border {
 
 #p3t1{
   background: linear-gradient(to bottom, #b7ad70 34%,#b7ad70 34%,#c9c190 37%,#c9c190 37%,#c9c190 42%,#d5cea6 50%,#b7ad70 52%);
-  padding: 30px;
+  padding: 1px;
   margin: 1px;
   border: 60px;
-  font-family: "Depot New", Lora, sans-serif;
+  text-shadow:
+    1px 1px 1px #00ff00,
+    2px 2px 1px #fff;
 }
 #p3t2{
   background: linear-gradient(to bottom, #b7ad70 34%,#b7ad70 34%,#c9c190 37%,#c9c190 37%,#c9c190 42%,#d5cea6 50%,#b7ad70 52%);
   padding: 30px;
   margin: 1px;
   border: 60px;
-  font-family: "Depot New", Lora, sans-serif;
+  text-shadow:
+    1px 1px 1px #cccccc,
+    2px 2px 1px #fff;
 }
 #p3t3{
   background: linear-gradient(to bottom, #b7ad70 34%,#b7ad70 34%,#c9c190 37%,#c9c190 37%,#c9c190 42%,#d5cea6 50%,#b7ad70 52%);
-  padding: 30px;
-  margin: 30px;
-  border: 60px;
-  font-family: "Depot New", Lora, sans-serif;
+  padding: 3px;
+  margin: 3px;
+  border: 0px;
+  text-shadow:
+    1px 1px 1px #e4ac19,
+    2px 2px 1px #fff;
 }
+
 #imgdiv1{
   font-size: 15px;
   color: black;
@@ -197,9 +228,17 @@ p#border {
 #imgdiv2{
   font-size: 15px;
   color: black;
+  padding: 100px;
+  border: 10px;
+  margin: 100px;
 }
 #imgdiv3{
+  font: Akaya Telivigala;
   font-size: 15px;
   color: black;
 }
-
+#font0p3{
+  font: Lobster;
+  font-size: 25px;
+  color: black;
+}
