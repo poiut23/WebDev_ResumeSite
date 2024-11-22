@@ -236,3 +236,22 @@ p#border {
   font-size: 25px;
   color: black;
 }
+
+
+
+
+
+#wrapper {
+  width: 850px;
+  height: 600px;
+  background-color: #CCC;
+  margin:0 auto;
+  overflow: hidden;
+}
+#canvas {
+  width: 700px;
+  height: 500px;
+  background-color: #CCC;
+  margin: 30px auto;
+}
+
