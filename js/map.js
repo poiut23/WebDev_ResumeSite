@@ -8,18 +8,31 @@ function init() {
     mapTypeId: google.maps.MapTypeId.SATELLITE, 
     
     mapTypeControlOptions: { //This is Positioning for the control panel on the map
-      position: google.maps.ControlPosition.BORROM_CENTER
+      position: google.maps.ControlPosition.BOTTOM_CENTER
   }
 }; 
 
-var myMap = new google maps.map(el, mapOptions);
+var myMap = new google maps.map(el, mapOptions); 
 
 var marker = new google.maps.Marker({
     position: myLocation, 
-    map: myMap, animation: google.maps.Animation.BOUNCE,
+    map: myMap, 
+    animation: google.maps.Animation.drop,
     icon: 'iit-icon.png'
 });
 
+var contentString = '<h1> </h1><p> </p>' 
+
+var infowindow = new google.maps.infowindow ({
+    content: contentString
+}); 
+
+google.maps.event.addListener(marker, 'mouseover', function() {
+  infowindow.open(myMap, marker); 
+});
+
+
+}
 
 
 

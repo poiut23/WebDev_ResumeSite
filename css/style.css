@@ -1,3 +1,10 @@
+.min{
+  min-width: 500px;
+}
+
+
+
+
 #BG1{
  background: linear-gradient(to bottom, rgb(213,206,166) 0%,rgb(183,173,112) 12%,rgb(183,173,112) 85%,rgb(201,193,144) 86%,rgb(201,193,144) 86%,rgb(201,193,144) 91%,rgb(201,193,144) 91%);
 }
