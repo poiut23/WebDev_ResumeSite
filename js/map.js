@@ -1,13 +1,13 @@
 function init() {
-  var el = document.getElementById('canvas');
-  var myLocation = new google.maps.LatLng(41.83517, -87.627130);
+  var el = document.getElementById('canvas'); //this is grabbing the canvas from the html code (id="canvas")
+  var myLocation = new google.maps.LatLng(41.83517, -87.627130); //this is dropping the map inside the canvas
   
-  var mapOptions = {
+  var mapOptions = { //you want your map to be centered on your location so thats what i am doing below. after that, you need a zoom, your map needs to have a type and the type i have below is SATELLITE
     center: myLocation,
     zoom:18,
     mapTypeId: google.maps.MapTypeId.SATELLITE, 
     
-    mapTypeControlOptions: { 
+    mapTypeControlOptions: { //This is Positioning for the control panel on the map
       position: google.maps.ControlPosition.BORROM_CENTER
   }
 }; 
